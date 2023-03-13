@@ -1,6 +1,10 @@
-def solution(wallpaper):
-    answer = []
+"""
+2023-03-13
+https://school.programmers.co.kr/learn/courses/30/lessons/161990?language=python3
+바탕화면 정리
+"""
 
+def solution(wallpaper):
     x1 = y1 = 50
     x2 = y2 = -1
 
@@ -13,7 +17,3 @@ def solution(wallpaper):
                 y2 = max(y2, j)
 
     return [x1, y1, x2, y2]
-
-
-k = [".#...", "..#..", "...#."]
-solution(k)
