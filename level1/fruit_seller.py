@@ -16,7 +16,3 @@ def solution(k, m, score):
         answer += price * m
 
     return answer
-
-
-k = solution(3,	4,	[1, 2, 3, 1, 2, 3, 1])
-print(k)
