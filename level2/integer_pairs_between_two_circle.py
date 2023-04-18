@@ -15,6 +15,5 @@ def solution(r1, r2):
 
     return answer * 4
 
-
 def get_y(r, x):
     return math.sqrt(r ** 2 - x ** 2)
