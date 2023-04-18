@@ -5,7 +5,6 @@ https://school.programmers.co.kr/learn/courses/30/lessons/172928
 """
 
 def solution(park, routes):
-    answer = []
     H = len(park)
     W = len(park[0])
     dir_dict = {"E": (0, 1), "W": (0, -1), "S": (1, 0), "N": (-1, 0)}
@@ -37,7 +36,7 @@ def find_start(park):
     for i, h in enumerate(park):
         for j, w in enumerate(h):
             if w == 'S':
-                return (i, j)
+                return i, j
 
     return None
 
