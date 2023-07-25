@@ -4,9 +4,8 @@ https://school.programmers.co.kr/learn/courses/30/lessons/131705
 삼총사
 """
 
-from itertools import combinations
-
 def short(number):
+    from itertools import combinations
     return len([lst for lst in combinations(number, 3) if sum(lst) == 0])
 
 
