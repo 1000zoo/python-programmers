@@ -8,7 +8,6 @@ def short(number):
     from itertools import combinations
     return len([lst for lst in combinations(number, 3) if sum(lst) == 0])
 
-
 def solution(number):
     return dfs(number, [], 0, 0)
 
