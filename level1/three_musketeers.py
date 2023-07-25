@@ -20,7 +20,7 @@ def dfs(number, curr_list, curr_index, answer):
     temp = curr_list.copy()
     for i in range(curr_index, len(number)):
         temp.append(number[i])
-        answer = dfs(number, temp, i + 1, answer);
+        answer = dfs(number, temp, i + 1, answer)
         temp.pop()
 
     return answer
